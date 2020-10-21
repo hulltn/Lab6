@@ -55,8 +55,8 @@ String getLeafColor()
 
 void print() 
 {
-  system.out.println("This is a " +treeName "tree");
-  system.out.println("It is a " +treetype "and its leaves are currently" +leafColor)
-  sytem.out.println("It " +leavesFall "lose its leaves for the winter"); 
+  system.out.println("This is a " +treeName+ "tree");
+  system.out.println("It is a " +treetype+ "and its leaves are currently" +leafColor)
+  sytem.out.println("It " +leavesFall+ "lose its leaves for the winter"); 
 }
 }
