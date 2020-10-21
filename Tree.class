@@ -9,7 +9,7 @@ Tree ()
 {
 treeName = "";
 treeType = "";
-leavesFall = false;
+leavesFall = does not;
 leafColor = "";
 }
 Tree (String aTreeName, String aTreeType, boolean aLeavesFall, String aLeafColor)
@@ -18,4 +18,40 @@ Tree (String aTreeName, String aTreeType, boolean aLeavesFall, String aLeafColor
   treeType=aTreeType;
   leavesFall=aLeavesFall;
   leafColor=aLeafColor;
+}
+void setTreeName(String aTreeName)
+{
+  treeName = aTreeName;
+}
+void setTreeType(String aTreeType)
+{
+  treeType = aTreeType;
+}
+void setLeavesFall(boolean aLeavesFall)
+{
+  leavesFall = aLeavesFall;
+}
+void setLeafColor(String aLeafColor)
+{
+  leafColor = aLeafColor;
+}
+String getTreeName()
+{
+  return treeName;
+}
+String getTreeType()
+{
+  return treetype
+}
+boolean getLeavesFall()
+{
+  return leavesFall;
+}
+String getLeafColor;
+
+void print() 
+{
+  system.out.println("This is a " +treeName "tree");
+  system.out.println("It is a " +treetype "and its leaves are currently" +leafColor)
+  sytem.out.println("It " +leavesFall "lose its leaves for the winter"); 
 }
