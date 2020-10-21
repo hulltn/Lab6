@@ -1,18 +1,19 @@
-class Tree
+class Tree 
 {
   String treeName;
   String treeType;
   boolean leavesFall;
   String leafColor;
-}
-Tree ()
+
+Tree()
 {
 treeName = "";
 treeType = "";
 leavesFall = does not;
 leafColor = "";
 }
-Tree (String aTreeName, String aTreeType, boolean aLeavesFall, String aLeafColor)
+
+Tree(String aTreeName, String aTreeType, boolean aLeavesFall, String aLeafColor)
 {
   treeName=aTreeName;
   treeType=aTreeType;
@@ -47,11 +48,15 @@ boolean getLeavesFall()
 {
   return leavesFall;
 }
-String getLeafColor;
+String getLeafColor()
+{
+  return leafColor;
+}
 
 void print() 
 {
   system.out.println("This is a " +treeName "tree");
   system.out.println("It is a " +treetype "and its leaves are currently" +leafColor)
   sytem.out.println("It " +leavesFall "lose its leaves for the winter"); 
+}
 }
